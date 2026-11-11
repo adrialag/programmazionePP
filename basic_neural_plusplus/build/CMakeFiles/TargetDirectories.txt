@@ -1,0 +1,4 @@
+/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles/basic_neural.dir
+/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles/lab1.dir
+/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles/edit_cache.dir
+/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles/rebuild_cache.dir

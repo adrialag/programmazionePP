@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -fsanitize=address CMakeFiles/ereditarieta.dir/ereditarieta.cpp.o -o ereditarieta

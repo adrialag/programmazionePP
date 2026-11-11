@@ -1,0 +1,17 @@
+Lezione 11
+
+-mettiamo i file nella cartella principale però poi cmake crea gli eseguibili dentro build quindi
+non trova i file e da errore se entri dentro build.
+Soluzione ./build/eseguibile -> così eseguiamo il codice ma rimanendo nella cartella con i file
+-il file mnist pixel vanno da 0 a 255 (scala di grigio), ogni riga corrisponde a un'immagine
+-in CMakeLists.txt creo eseguibili con add_executable(nome nome.cpp) poi posso fare ./build/nome
+cmake -B build && cmake --build build --target stringhe && ./build/stringhe
+Comando per lanciare subito da terminale un comando 
+-anche quando vado a creare un file (con ofstream) viene creato nella cartella da cui è stato 
+lanciato il file -> attenzione al numero di cifre con cui si stampa per evitare di perdere 
+informazione
+
+Lezione 12
+si crea una gerarchia di classi -> per esempio i layer avranno diverse classi
+due tipi di layer densi quelli che si addestrano e sigmoid quelli che fanno le funzioni di 
+attivazione

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -fsanitize=address CMakeFiles/vettore.dir/vettore.cpp.o -o vettore

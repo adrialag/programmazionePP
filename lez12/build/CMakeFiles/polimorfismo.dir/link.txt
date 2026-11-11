@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -fsanitize=address CMakeFiles/polimorfismo.dir/polimorfismo.cpp.o -o polimorfismo

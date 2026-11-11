@@ -1,0 +1,6 @@
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/ereditarieta.dir
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/vettore.dir
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/polimorfismo.dir
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/layer_new.dir
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/edit_cache.dir
+/home/sir16/fisica/programmazionePP/lez12/build/CMakeFiles/rebuild_cache.dir
