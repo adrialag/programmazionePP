@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sir16/fisica/programmazionePP/basic_neural_plusplus/main.cpp" "CMakeFiles/basic_neural.dir/main.cpp.o" "gcc" "CMakeFiles/basic_neural.dir/main.cpp.o.d"
+  "/home/sir16/fisica/programmazionePP/basic_neural_plusplus/lab04_main.cpp" "CMakeFiles/basic_neural.dir/lab04_main.cpp.o" "gcc" "CMakeFiles/basic_neural.dir/lab04_main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

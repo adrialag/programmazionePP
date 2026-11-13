@@ -1,0 +1,4 @@
+/home/sir16/fisica/programmazionePP/lez14/build/CMakeFiles/stampa.dir
+/home/sir16/fisica/programmazionePP/lez14/build/CMakeFiles/prodotto.dir
+/home/sir16/fisica/programmazionePP/lez14/build/CMakeFiles/edit_cache.dir
+/home/sir16/fisica/programmazionePP/lez14/build/CMakeFiles/rebuild_cache.dir

@@ -166,29 +166,29 @@ lab/lab1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab/lab1.cpp.s
 .PHONY : lab/lab1.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+lab04_main.o: lab04_main.cpp.o
+.PHONY : lab04_main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.o
-.PHONY : main.cpp.o
+lab04_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.o
+.PHONY : lab04_main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+lab04_main.i: lab04_main.cpp.i
+.PHONY : lab04_main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.i
-.PHONY : main.cpp.i
+lab04_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.i
+.PHONY : lab04_main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+lab04_main.s: lab04_main.cpp.s
+.PHONY : lab04_main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.s
-.PHONY : main.cpp.s
+lab04_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.s
+.PHONY : lab04_main.cpp.s
 
 # Help Target
 help:
@@ -203,9 +203,9 @@ help:
 	@echo "... lab/lab1.o"
 	@echo "... lab/lab1.i"
 	@echo "... lab/lab1.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab04_main.o"
+	@echo "... lab04_main.i"
+	@echo "... lab04_main.s"
 .PHONY : help
 
 

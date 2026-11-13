@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -Wall CMakeFiles/prodotto.dir/prodotto.cpp.o -o prodotto
