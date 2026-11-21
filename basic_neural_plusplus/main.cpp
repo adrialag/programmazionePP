@@ -1,34 +1,11 @@
 #include <iostream>
 #include <stdexcept>
 #include <Eigen/Dense>
+#include <chrono>
 #include "parametricLayer.hpp"
-#include "matrix.hpp"
 #include "sequential.hpp"
+#include "activation_layers.hpp"
 
-void prova_matrix() {
-    // 1. set e get
-    Matrix a(2, 3);              // 2 x 3, tutti a 0
-    a.set(0, 2, 5.0);
-    a.set(1, 0, 7.0);
-    std::cout << a.get(0, 2) << " " << a.get(1, 0) << " "
-              << a.get(1, 1) << std::endl;
-    // 2. un indice sbagliato
-    try {
-        a.get(2, 0);             // la riga 2 non esiste
-        std::cout << "nessuna eccezione" << std::endl;
-    } catch (const std::out_of_range& e) {
-        std::cout << "eccezione: " << e.what() << std::endl;
-    }
-    // 3. la copia
-    Matrix b = a;                // costruttore di copia
-    b.set(0, 2, 9.0);
-    std::cout << a.get(0, 2) << " " << b.get(0, 2) << std::endl;
-    // 4. l'assegnamento
-    Matrix c(4, 4);
-    c = a;                       // operator=
-    std::cout << c.getRows() << " " << c.getCols() << " "
-              << c.get(1, 0) << std::endl;
-}
 void prova_dense_layer() {
     // un'immagine MNIST: 784 pixel in colonna
     Eigen::MatrixXd x = Eigen::MatrixXd::Random(784, 1);
@@ -58,9 +35,44 @@ void prova_sequential() {
               << z.rows() << " x " << z.cols() << std::endl;
 }
 
+// Task 3: 784 -> 128 -> 10, sigmoide dopo ogni DenseLayer
+void costruisci_rete(Sequential& rete) {
+    rete.add(new DenseLayer(128, 784));
+    rete.add(new SigmoidLayer());
+    rete.add(new DenseLayer(10, 128));
+    rete.add(new SigmoidLayer());
+}
+
+void prova_rete() {
+    Eigen::MatrixXd x = Eigen::MatrixXd::Random(784, 1);
+    Sequential rete;
+    costruisci_rete(rete);
+    Eigen::MatrixXd y = rete.forward(x);
+    std::cout << "y: " << y.rows() << " x " << y.cols()
+              << ", min " << y.minCoeff()
+              << ", max " << y.maxCoeff() << std::endl;
+}
+
+// Task 4: il tempo di n forward della rete
+void misura_tempo() {
+    Eigen::MatrixXd x = Eigen::MatrixXd::Random(784, 1);
+    Sequential rete;
+    costruisci_rete(rete);
+    int n = 10000;   // una sola forward e' troppo breve da misurare
+    auto inizio = std::chrono::high_resolution_clock::now();
+    for (int i = 0; i < n; i++) {
+        rete.forward(x);
+    }
+    auto fine = std::chrono::high_resolution_clock::now();
+    auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(
+        fine - inizio).count();
+    std::cout << n << " forward: " << ms << " ms" << std::endl;
+}
+
 int main() {
-    prova_matrix();
     prova_dense_layer();
     prova_sequential();
+    prova_rete();
+    misura_tempo();
     return 0;
 }

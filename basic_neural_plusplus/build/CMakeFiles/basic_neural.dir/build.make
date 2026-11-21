@@ -86,19 +86,19 @@ CMakeFiles/basic_neural.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/basic_neural.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sir16/fisica/programmazionePP/basic_neural_plusplus/main.cpp -o CMakeFiles/basic_neural.dir/main.cpp.s
 
-CMakeFiles/basic_neural.dir/matrix.cpp.o: CMakeFiles/basic_neural.dir/flags.make
-CMakeFiles/basic_neural.dir/matrix.cpp.o: /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.cpp
-CMakeFiles/basic_neural.dir/matrix.cpp.o: CMakeFiles/basic_neural.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/basic_neural.dir/matrix.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basic_neural.dir/matrix.cpp.o -MF CMakeFiles/basic_neural.dir/matrix.cpp.o.d -o CMakeFiles/basic_neural.dir/matrix.cpp.o -c /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.cpp
+CMakeFiles/basic_neural.dir/activation_layers.cpp.o: CMakeFiles/basic_neural.dir/flags.make
+CMakeFiles/basic_neural.dir/activation_layers.cpp.o: /home/sir16/fisica/programmazionePP/basic_neural_plusplus/activation_layers.cpp
+CMakeFiles/basic_neural.dir/activation_layers.cpp.o: CMakeFiles/basic_neural.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sir16/fisica/programmazionePP/basic_neural_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/basic_neural.dir/activation_layers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/basic_neural.dir/activation_layers.cpp.o -MF CMakeFiles/basic_neural.dir/activation_layers.cpp.o.d -o CMakeFiles/basic_neural.dir/activation_layers.cpp.o -c /home/sir16/fisica/programmazionePP/basic_neural_plusplus/activation_layers.cpp
 
-CMakeFiles/basic_neural.dir/matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/basic_neural.dir/matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.cpp > CMakeFiles/basic_neural.dir/matrix.cpp.i
+CMakeFiles/basic_neural.dir/activation_layers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/basic_neural.dir/activation_layers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sir16/fisica/programmazionePP/basic_neural_plusplus/activation_layers.cpp > CMakeFiles/basic_neural.dir/activation_layers.cpp.i
 
-CMakeFiles/basic_neural.dir/matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/basic_neural.dir/matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.cpp -o CMakeFiles/basic_neural.dir/matrix.cpp.s
+CMakeFiles/basic_neural.dir/activation_layers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/basic_neural.dir/activation_layers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sir16/fisica/programmazionePP/basic_neural_plusplus/activation_layers.cpp -o CMakeFiles/basic_neural.dir/activation_layers.cpp.s
 
 CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: CMakeFiles/basic_neural.dir/flags.make
 CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.cpp
@@ -131,7 +131,7 @@ CMakeFiles/basic_neural.dir/sequential.cpp.s: cmake_force
 # Object files for target basic_neural
 basic_neural_OBJECTS = \
 "CMakeFiles/basic_neural.dir/main.cpp.o" \
-"CMakeFiles/basic_neural.dir/matrix.cpp.o" \
+"CMakeFiles/basic_neural.dir/activation_layers.cpp.o" \
 "CMakeFiles/basic_neural.dir/parametricLayer.cpp.o" \
 "CMakeFiles/basic_neural.dir/sequential.cpp.o"
 
@@ -139,7 +139,7 @@ basic_neural_OBJECTS = \
 basic_neural_EXTERNAL_OBJECTS =
 
 basic_neural: CMakeFiles/basic_neural.dir/main.cpp.o
-basic_neural: CMakeFiles/basic_neural.dir/matrix.cpp.o
+basic_neural: CMakeFiles/basic_neural.dir/activation_layers.cpp.o
 basic_neural: CMakeFiles/basic_neural.dir/parametricLayer.cpp.o
 basic_neural: CMakeFiles/basic_neural.dir/sequential.cpp.o
 basic_neural: CMakeFiles/basic_neural.dir/build.make

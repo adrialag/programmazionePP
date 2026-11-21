@@ -129,6 +129,30 @@ basic_neural/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/build
 .PHONY : basic_neural/fast
 
+activation_layers.o: activation_layers.cpp.o
+.PHONY : activation_layers.o
+
+# target to build an object file
+activation_layers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/activation_layers.cpp.o
+.PHONY : activation_layers.cpp.o
+
+activation_layers.i: activation_layers.cpp.i
+.PHONY : activation_layers.i
+
+# target to preprocess a source file
+activation_layers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/activation_layers.cpp.i
+.PHONY : activation_layers.cpp.i
+
+activation_layers.s: activation_layers.cpp.s
+.PHONY : activation_layers.s
+
+# target to generate assembly for a file
+activation_layers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/activation_layers.cpp.s
+.PHONY : activation_layers.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -152,30 +176,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-matrix.o: matrix.cpp.o
-.PHONY : matrix.o
-
-# target to build an object file
-matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.o
-.PHONY : matrix.cpp.o
-
-matrix.i: matrix.cpp.i
-.PHONY : matrix.i
-
-# target to preprocess a source file
-matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.i
-.PHONY : matrix.cpp.i
-
-matrix.s: matrix.cpp.s
-.PHONY : matrix.s
-
-# target to generate assembly for a file
-matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.s
-.PHONY : matrix.cpp.s
 
 parametricLayer.o: parametricLayer.cpp.o
 .PHONY : parametricLayer.o
@@ -234,12 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... basic_neural"
+	@echo "... activation_layers.o"
+	@echo "... activation_layers.i"
+	@echo "... activation_layers.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... matrix.o"
-	@echo "... matrix.i"
-	@echo "... matrix.s"
 	@echo "... parametricLayer.o"
 	@echo "... parametricLayer.i"
 	@echo "... parametricLayer.s"

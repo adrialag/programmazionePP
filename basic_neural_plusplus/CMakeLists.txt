@@ -11,9 +11,9 @@ find_package(OpenCV REQUIRED)
 message(STATUS "OpenCV ${OpenCV_VERSION} trovata")
 
 # AddressSanitizer
-add_compile_options(-fsanitize=address -g)
-add_link_options(-fsanitize=address)
-add_executable(basic_neural main.cpp matrix.cpp parametricLayer.cpp sequential.cpp)
+#add_compile_options(-fsanitize=address -g)
+#add_link_options(-fsanitize=address)
+add_executable(basic_neural main.cpp activation_layers.cpp parametricLayer.cpp sequential.cpp)
 
 if(Eigen3_FOUND)
     target_link_libraries(basic_neural Eigen3::Eigen)

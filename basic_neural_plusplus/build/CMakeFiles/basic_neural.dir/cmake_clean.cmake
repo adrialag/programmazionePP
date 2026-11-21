@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/basic_neural.dir/activation_layers.cpp.o"
+  "CMakeFiles/basic_neural.dir/activation_layers.cpp.o.d"
   "CMakeFiles/basic_neural.dir/main.cpp.o"
   "CMakeFiles/basic_neural.dir/main.cpp.o.d"
-  "CMakeFiles/basic_neural.dir/matrix.cpp.o"
-  "CMakeFiles/basic_neural.dir/matrix.cpp.o.d"
   "CMakeFiles/basic_neural.dir/parametricLayer.cpp.o"
   "CMakeFiles/basic_neural.dir/parametricLayer.cpp.o.d"
   "CMakeFiles/basic_neural.dir/sequential.cpp.o"

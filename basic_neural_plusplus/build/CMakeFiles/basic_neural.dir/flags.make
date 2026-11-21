@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /usr/include/eigen3 -isystem /usr/include/opencv4
 
-CXX_FLAGS =  -Wall -std=gnu++17 -fsanitize=address -g
+CXX_FLAGS =  -O3 -march=native -Wall -std=gnu++17
 
