@@ -129,66 +129,77 @@ basic_neural/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/build
 .PHONY : basic_neural/fast
 
-#=============================================================================
-# Target rules for targets named lab1
-
-# Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1
-.PHONY : lab1
-
-# fast build rule for target.
-lab1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
-
-lab/lab1.o: lab/lab1.cpp.o
-.PHONY : lab/lab1.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-lab/lab1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab/lab1.cpp.o
-.PHONY : lab/lab1.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-lab/lab1.i: lab/lab1.cpp.i
-.PHONY : lab/lab1.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-lab/lab1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab/lab1.cpp.i
-.PHONY : lab/lab1.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-lab/lab1.s: lab/lab1.cpp.s
-.PHONY : lab/lab1.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-lab/lab1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab/lab1.cpp.s
-.PHONY : lab/lab1.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-lab04_main.o: lab04_main.cpp.o
-.PHONY : lab04_main.o
+matrix.o: matrix.cpp.o
+.PHONY : matrix.o
 
 # target to build an object file
-lab04_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.o
-.PHONY : lab04_main.cpp.o
+matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.o
+.PHONY : matrix.cpp.o
 
-lab04_main.i: lab04_main.cpp.i
-.PHONY : lab04_main.i
+matrix.i: matrix.cpp.i
+.PHONY : matrix.i
 
 # target to preprocess a source file
-lab04_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.i
-.PHONY : lab04_main.cpp.i
+matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
 
-lab04_main.s: lab04_main.cpp.s
-.PHONY : lab04_main.s
+matrix.s: matrix.cpp.s
+.PHONY : matrix.s
 
 # target to generate assembly for a file
-lab04_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/lab04_main.cpp.s
-.PHONY : lab04_main.cpp.s
+matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
+
+parametricLayer.o: parametricLayer.cpp.o
+.PHONY : parametricLayer.o
+
+# target to build an object file
+parametricLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/parametricLayer.cpp.o
+.PHONY : parametricLayer.cpp.o
+
+parametricLayer.i: parametricLayer.cpp.i
+.PHONY : parametricLayer.i
+
+# target to preprocess a source file
+parametricLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/parametricLayer.cpp.i
+.PHONY : parametricLayer.cpp.i
+
+parametricLayer.s: parametricLayer.cpp.s
+.PHONY : parametricLayer.s
+
+# target to generate assembly for a file
+parametricLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/parametricLayer.cpp.s
+.PHONY : parametricLayer.cpp.s
 
 # Help Target
 help:
@@ -199,13 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... basic_neural"
-	@echo "... lab1"
-	@echo "... lab/lab1.o"
-	@echo "... lab/lab1.i"
-	@echo "... lab/lab1.s"
-	@echo "... lab04_main.o"
-	@echo "... lab04_main.i"
-	@echo "... lab04_main.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
+	@echo "... parametricLayer.o"
+	@echo "... parametricLayer.i"
+	@echo "... parametricLayer.s"
 .PHONY : help
 
 

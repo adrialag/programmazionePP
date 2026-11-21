@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/basic_neural.dir/lab04_main.cpp.o"
-  "CMakeFiles/basic_neural.dir/lab04_main.cpp.o.d"
+  "CMakeFiles/basic_neural.dir/main.cpp.o"
+  "CMakeFiles/basic_neural.dir/main.cpp.o.d"
+  "CMakeFiles/basic_neural.dir/matrix.cpp.o"
+  "CMakeFiles/basic_neural.dir/matrix.cpp.o.d"
+  "CMakeFiles/basic_neural.dir/parametricLayer.cpp.o"
+  "CMakeFiles/basic_neural.dir/parametricLayer.cpp.o.d"
   "basic_neural"
   "basic_neural.pdb"
 )

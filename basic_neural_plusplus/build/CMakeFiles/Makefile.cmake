@@ -63,5 +63,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/basic_neural.dir/DependInfo.cmake"
-  "CMakeFiles/lab1.dir/DependInfo.cmake"
   )
