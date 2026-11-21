@@ -1,30 +1,21 @@
 #ifndef PARAMETRIC_LAYER_HPP
 #define PARAMETRIC_LAYER_HPP
-//ricordare sempre che in hpp si dichiarano solo i metodi che poi vengono scritti in cpp
-#include <Eigen/Dense>
+#include "layer.hpp"
 
-class DenseLayer {
+//non devo più includere Eigen perchè è gia dentro layer
+
+
+//devo rifermi alla classe madre -> ora denselayer è classe derivata
+class DenseLayer : public Layer {
 private:
-    //l'obiettivo è uno strato di neuroni che calcola z = Wx + B
-    //ha bisogno dei pasi e del bias in input
     Eigen::MatrixXd Wt;       // W: Nn x Ni
     Eigen::MatrixXd biases;   // b: Nn x 1
-
 public:
-    //questo è il costruttore 
-    DenseLayer(int Nn, int Ni);  // neuroni, ingressi
-
-    //metodo che effettivamente fa il passo forward
+    DenseLayer(int Nn, int Ni);  // neuroni, ingressi -> identico a prima
     Eigen::MatrixXd forward(
-        const Eigen::MatrixXd& input);
-    
-    //I due const hanno ruoli completamente diversi
-    //il primo const dice che ciò che ricevi non puoi modificarlo
-    //perchè io sto passando direttamente il puntatore alla matrice originale 
-    //quindi sarebbe grave se poi lo si può modificare
-    //invece il secondo const dice che la funzione non può modificare this che riceve
+        const Eigen::MatrixXd& input) override; //override -> per dire che riscrive
+    //primo const protegge output(accesso diretto alla matrice) secondo dentro la funzione
     const Eigen::MatrixXd& getWeights() const;
     const Eigen::MatrixXd& getBiases() const;
 };
-
 #endif

@@ -415,4 +415,6 @@ CMakeFiles/basic_neural.dir/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.hpp \
- /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.hpp
+ /home/sir16/fisica/programmazionePP/basic_neural_plusplus/layer.hpp \
+ /home/sir16/fisica/programmazionePP/basic_neural_plusplus/matrix.hpp \
+ /home/sir16/fisica/programmazionePP/basic_neural_plusplus/sequential.hpp

@@ -2,6 +2,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: \
  /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.cpp \
  /usr/include/stdc-predef.h \
  /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.hpp \
+ /home/sir16/fisica/programmazionePP/basic_neural_plusplus/layer.hpp \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \

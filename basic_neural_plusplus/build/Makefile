@@ -201,6 +201,30 @@ parametricLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/parametricLayer.cpp.s
 .PHONY : parametricLayer.cpp.s
 
+sequential.o: sequential.cpp.o
+.PHONY : sequential.o
+
+# target to build an object file
+sequential.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/sequential.cpp.o
+.PHONY : sequential.cpp.o
+
+sequential.i: sequential.cpp.i
+.PHONY : sequential.i
+
+# target to preprocess a source file
+sequential.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/sequential.cpp.i
+.PHONY : sequential.cpp.i
+
+sequential.s: sequential.cpp.s
+.PHONY : sequential.s
+
+# target to generate assembly for a file
+sequential.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_neural.dir/build.make CMakeFiles/basic_neural.dir/sequential.cpp.s
+.PHONY : sequential.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... parametricLayer.o"
 	@echo "... parametricLayer.i"
 	@echo "... parametricLayer.s"
+	@echo "... sequential.o"
+	@echo "... sequential.i"
+	@echo "... sequential.s"
 .PHONY : help
 
 
