@@ -394,22 +394,13 @@ CMakeFiles/basic_neural.dir/activation_layers.cpp.o: /home/sir16/fisica/programm
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -448,8 +439,6 @@ CMakeFiles/basic_neural.dir/activation_layers.cpp.o: /home/sir16/fisica/programm
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -484,6 +473,7 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/activation_layers.hpp \
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/layer.hpp \
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.hpp \
+  /home/sir16/fisica/programmazionePP/basic_neural_plusplus/randnumgen.hpp \
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/sequential.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -545,6 +535,8 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/c++/15/bits/postypes.h \
   /usr/include/c++/15/bits/predefined_ops.h \
   /usr/include/c++/15/bits/ptr_traits.h \
+  /usr/include/c++/15/bits/random.h \
+  /usr/include/c++/15/bits/random.tcc \
   /usr/include/c++/15/bits/range_access.h \
   /usr/include/c++/15/bits/refwrap.h \
   /usr/include/c++/15/bits/requires_hosted.h \
@@ -561,6 +553,7 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/c++/15/bits/stl_iterator.h \
   /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15/bits/stl_numeric.h \
   /usr/include/c++/15/bits/stl_pair.h \
   /usr/include/c++/15/bits/stl_tempbuf.h \
   /usr/include/c++/15/bits/stl_uninitialized.h \
@@ -611,10 +604,13 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/c++/15/istream \
   /usr/include/c++/15/limits \
   /usr/include/c++/15/new \
+  /usr/include/c++/15/numeric \
   /usr/include/c++/15/ostream \
   /usr/include/c++/15/pstl/execution_defs.h \
   /usr/include/c++/15/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/15/pstl/glue_numeric_defs.h \
   /usr/include/c++/15/pstl/pstl_config.h \
+  /usr/include/c++/15/random \
   /usr/include/c++/15/ratio \
   /usr/include/c++/15/sstream \
   /usr/include/c++/15/stdexcept \
@@ -881,22 +877,13 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -935,8 +922,6 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -950,6 +935,7 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
   /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -970,6 +956,7 @@ CMakeFiles/basic_neural.dir/main.cpp.o: /home/sir16/fisica/programmazionePP/basi
 CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.cpp \
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/layer.hpp \
   /home/sir16/fisica/programmazionePP/basic_neural_plusplus/parametricLayer.hpp \
+  /home/sir16/fisica/programmazionePP/basic_neural_plusplus/randnumgen.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -994,6 +981,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/bits/basic_string.tcc \
   /usr/include/c++/15/bits/char_traits.h \
   /usr/include/c++/15/bits/charconv.h \
+  /usr/include/c++/15/bits/chrono.h \
   /usr/include/c++/15/bits/concept_check.h \
   /usr/include/c++/15/bits/cpp_type_traits.h \
   /usr/include/c++/15/bits/cxxabi_forced.h \
@@ -1025,9 +1013,12 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/bits/ostream.h \
   /usr/include/c++/15/bits/ostream.tcc \
   /usr/include/c++/15/bits/ostream_insert.h \
+  /usr/include/c++/15/bits/parse_numbers.h \
   /usr/include/c++/15/bits/postypes.h \
   /usr/include/c++/15/bits/predefined_ops.h \
   /usr/include/c++/15/bits/ptr_traits.h \
+  /usr/include/c++/15/bits/random.h \
+  /usr/include/c++/15/bits/random.tcc \
   /usr/include/c++/15/bits/range_access.h \
   /usr/include/c++/15/bits/refwrap.h \
   /usr/include/c++/15/bits/requires_hosted.h \
@@ -1044,6 +1035,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/bits/stl_iterator.h \
   /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15/bits/stl_numeric.h \
   /usr/include/c++/15/bits/stl_pair.h \
   /usr/include/c++/15/bits/stl_tempbuf.h \
   /usr/include/c++/15/bits/stl_uninitialized.h \
@@ -1062,6 +1054,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/cassert \
   /usr/include/c++/15/cctype \
   /usr/include/c++/15/cerrno \
+  /usr/include/c++/15/chrono \
   /usr/include/c++/15/climits \
   /usr/include/c++/15/clocale \
   /usr/include/c++/15/cmath \
@@ -1073,6 +1066,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/cstdio \
   /usr/include/c++/15/cstdlib \
   /usr/include/c++/15/cstring \
+  /usr/include/c++/15/ctime \
   /usr/include/c++/15/cwchar \
   /usr/include/c++/15/cwctype \
   /usr/include/c++/15/debug/assertions.h \
@@ -1091,10 +1085,14 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/c++/15/istream \
   /usr/include/c++/15/limits \
   /usr/include/c++/15/new \
+  /usr/include/c++/15/numeric \
   /usr/include/c++/15/ostream \
   /usr/include/c++/15/pstl/execution_defs.h \
   /usr/include/c++/15/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/15/pstl/glue_numeric_defs.h \
   /usr/include/c++/15/pstl/pstl_config.h \
+  /usr/include/c++/15/random \
+  /usr/include/c++/15/ratio \
   /usr/include/c++/15/sstream \
   /usr/include/c++/15/stdexcept \
   /usr/include/c++/15/stdlib.h \
@@ -1360,22 +1358,13 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1414,8 +1403,6 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -1429,6 +1416,7 @@ CMakeFiles/basic_neural.dir/parametricLayer.cpp.o: /home/sir16/fisica/programmaz
   /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1839,22 +1827,13 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1893,8 +1872,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -1925,6 +1902,12 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
   /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/xmmintrin.h
 
+
+/usr/include/c++/15/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/15/bits/stl_numeric.h:
+
+/usr/include/c++/15/bits/random.h:
 
 /usr/include/c++/15/bits/parse_numbers.h:
 
@@ -1986,6 +1969,8 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/c++/15/numeric:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
@@ -2004,27 +1989,17 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -2041,8 +2016,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -2079,8 +2052,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 /usr/include/locale.h:
 
 /usr/include/linux/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 
 /usr/include/linux/posix_types.h:
 
@@ -2218,8 +2189,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
@@ -2354,8 +2323,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/c++/15/bits/predefined_ops.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
-
 /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
@@ -2446,6 +2413,8 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/c++/15/bits/exception_ptr.h:
 
+/home/sir16/fisica/programmazionePP/basic_neural_plusplus/randnumgen.hpp:
+
 /usr/include/c++/15/bits/basic_string.h:
 
 /usr/include/c++/15/streambuf:
@@ -2494,6 +2463,8 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/c++/15/bits/locale_classes.h:
 
+/usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h:
+
 /usr/include/c++/15/bits/memory_resource.h:
 
 /usr/include/c++/15/compare:
@@ -2505,6 +2476,8 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 /usr/include/c++/15/bits/stl_heap.h:
 
 /usr/include/c++/15/bits/locale_facets.tcc:
+
+/usr/include/c++/15/bits/random.tcc:
 
 /usr/include/ctype.h:
 
@@ -2583,8 +2556,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 /usr/include/c++/15/cstring:
 
 /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/15/bits/postypes.h:
 
@@ -2726,6 +2697,8 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
+/usr/include/c++/15/random:
+
 /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/include/eigen3/Eigen/src/Core/DenseBase.h:
@@ -2769,8 +2742,6 @@ CMakeFiles/basic_neural.dir/sequential.cpp.o: /home/sir16/fisica/programmazioneP
 /usr/include/c++/15/functional:
 
 /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
-
-/usr/include/x86_64-linux-gnu/bits/select-decl.h:
 
 /usr/include/c++/15/bits/atomic_lockfree_defines.h:
 

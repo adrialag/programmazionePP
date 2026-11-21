@@ -5,6 +5,7 @@
 #include "parametricLayer.hpp"
 #include "sequential.hpp"
 #include "activation_layers.hpp"
+#include "randnumgen.hpp"
 
 void prova_dense_layer() {
     // un'immagine MNIST: 784 pixel in colonna
@@ -54,6 +55,7 @@ void prova_rete() {
 }
 
 // Task 4: il tempo di n forward della rete
+/*
 void misura_tempo() {
     Eigen::MatrixXd x = Eigen::MatrixXd::Random(784, 1);
     Sequential rete;
@@ -68,11 +70,37 @@ void misura_tempo() {
         fine - inizio).count();
     std::cout << n << " forward: " << ms << " ms" << std::endl;
 }
+    */
+// Laboratorio 08, Task 5: la deviazione standard dei pesi
+void prova_inizializzazione() {
+    DenseLayer l(128, 784);    // He, gaussiana: i default
+    const Eigen::MatrixXd& W = l.getWeights();
+    double media = W.mean();
+    double sigma = std::sqrt((W.array() - media).square().mean());
+    std::cout << "deviazione standard dei pesi: " << sigma
+              << ", attesa: " << std::sqrt(2.0 / 784) << std::endl;
+}
 
+// Laboratorio 08, Task 5: una rete con la tanh in uscita
+void prova_tanh() {
+    Eigen::MatrixXd x = Eigen::MatrixXd::Random(784, 1);
+    Sequential rete;
+    rete.add(new DenseLayer(128, 784));
+    rete.add(new SigmoidLayer());
+    rete.add(new DenseLayer(10, 128, InitType::XAVIER,
+                            DistroType::UNIFORM));
+    rete.add(new TanhLayer());
+    Eigen::MatrixXd y = rete.forward(x);
+    std::cout << "tanh: min " << y.minCoeff()
+              << ", max " << y.maxCoeff() << std::endl;
+}
 int main() {
+    rng.seed(42);
     prova_dense_layer();
     prova_sequential();
     prova_rete();
-    misura_tempo();
+    //misura_tempo();
+    prova_inizializzazione();
+    prova_tanh();
     return 0;
 }
